@@ -1,0 +1,44 @@
+body {
+    margin: 0; /*es la amrgen esterna*/
+    padding: 0; /*es la margen interna*/
+    background: url(../img/Fondo.png); /*con el punto punto (..) se usa para buscar otra carpeta*/
+    background-size: cover; /*ajusta la imagen del fondo a la pantalla*/
+    background-repeat: no-repeat; /*Para que no se repita la imagen de fondo*/
+    /*background-position: center; /*Para la psosicion del fondo*/
+    text-align: center; /*ajusta el texto en el centro*/
+    font-family: 'Roboto Slab', serif; /*Tipo grafia del texto*/
+}
+h1 {
+    color: #1bb140; /*Color de la letra*/
+    font-size: 45px; /*tamaño de fuente*/
+    margin-top: 50px; /*Margen externa arriba*/
+    text-shadow: 3px 3px #000000; /*Agrega una sombra al texto*/
+}
+h2 {
+    color: #1fff57;
+    font-size: 35px;
+    text-shadow: 3px 3px #000000;
+}
+p {
+    background: #164e11bd;
+    padding: 15px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+button {
+    padding: 10px 35px;
+    background: #4d9f0581;
+    color: #ffffff;
+    margin: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    border: 0px; /*Borde del recuadro del boton*/
+    transition: .4s; /*Tiempo de transicion*/
+}
+button:hover{
+    background: #4d9f05;
+    font-weight: bold; /*Poner en negrita el texto*/
+    margin: 5px;
+    padding: 15px 40px;
+    box-shadow: 4px 4px #e7e7e7; /*Agrega una sombra al boton o caja*/
+}
